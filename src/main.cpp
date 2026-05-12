@@ -68,7 +68,7 @@ int main() {
 
     LeaderBoard leaderboard("assets/leaderboard.txt");
 
-    // ── Main menu loop ────────────────────────────────────────────────────────
+    // ── Main menu loop
     while (window.isOpen()) {
         // Draw menu
         renderer.drawMenu("Mughlia Shatranj",
