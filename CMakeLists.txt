@@ -87,19 +87,6 @@ if(WIN32)
     )
 endif()
 
-# ── Week 1/2 test runner (no SFML) ───────────────────────────────────────────
-set(TEST_SOURCES
-    src/test_main.cpp
-    src/Board.cpp
-    src/pieces/Piece.cpp
-    src/pieces/King.cpp
-    src/pieces/Queen.cpp
-    src/pieces/Rook.cpp
-    src/pieces/Bishop.cpp
-    src/pieces/Knight.cpp
-    src/pieces/Pawn.cpp
-)
-
 add_executable(chess_test ${TEST_SOURCES})
 target_include_directories(chess_test PRIVATE src)
 target_compile_options(chess_test PRIVATE -Wall -Wextra)
