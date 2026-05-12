@@ -5,11 +5,44 @@ build/
 __pycache__/
 *.pyc
 
-# VS Code local settings (optional — remove this line if you want to share them)
+# VS Code local settings
 .vscode/
 
-# Claude Code internal folder
-.claude/
 
 # Microsoft Office lock files (created when a .docx/.pptx is open)
 ~$*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.claude/
