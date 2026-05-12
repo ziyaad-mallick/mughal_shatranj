@@ -108,5 +108,5 @@ Move AIPlayer::chooseMove(const Board& board) {
         else              beta  = std::min(beta,  bestScore);
     }
 
-    return bestMove;
+    return bestMove; 
 }
