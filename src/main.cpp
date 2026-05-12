@@ -30,7 +30,7 @@ static void showLeaderboard(sf::RenderWindow& window, Renderer& renderer,
         }
 
         std::vector<std::string> lines;
-        lines.push_back("=== Leaderboard (Top Games) ===");
+        lines.push_back(" Leaderboard (Top Games) ");
         lines.push_back("");
         if (records.empty()) {
             lines.push_back("No games recorded yet.");
@@ -55,8 +55,7 @@ static void showLeaderboard(sf::RenderWindow& window, Renderer& renderer,
 int main() {
     // Create SFML window
     sf::RenderWindow window(
-        sf::VideoMode({static_cast<unsigned>(WINDOW_W),
-                       static_cast<unsigned>(WINDOW_H)}),
+        sf::VideoMode({static_cast<unsigned>(WINDOW_W), static_cast<unsigned>(WINDOW_H)}),
         "Mughlia Shatranj",
         sf::Style::Titlebar | sf::Style::Close);
     window.setFramerateLimit(60);
